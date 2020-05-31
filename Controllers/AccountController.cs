@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BethanyShop.Auth;
 using BethanyShop.ViewModel;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,9 +12,9 @@ namespace BethanyShop.Controllers
 {
     public class AccountController : Controller
     {
-        private readonly SignInManager<IdentityUser> _signInManager;
-        private readonly UserManager<IdentityUser> _userManager;
-        public AccountController(SignInManager<IdentityUser>signInManager,UserManager<IdentityUser>userManager)
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        public AccountController(SignInManager<ApplicationUser>signInManager,UserManager<ApplicationUser>userManager)
         {
             _signInManager = signInManager;
             _userManager = userManager;
@@ -56,7 +57,7 @@ namespace BethanyShop.Controllers
             if (ModelState.IsValid)
             {
              
-                var user = new IdentityUser()
+                var user = new ApplicationUser()
                 { UserName = loginViewModel.UserName };
                 var result = await _userManager.CreateAsync(user, loginViewModel.Password);
                 if (result.Succeeded)
