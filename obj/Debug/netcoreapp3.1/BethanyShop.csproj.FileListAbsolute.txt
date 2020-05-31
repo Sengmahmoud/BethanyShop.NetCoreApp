@@ -2,7 +2,6 @@ C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\appsetti
 C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\BethanyShop.exe
-C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.csprojAssemblyReference.cache
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.AssemblyInfoInputs.cache
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.AssemblyInfo.cs
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.RazorTargetAssemblyInfo.cache
@@ -142,11 +141,12 @@ C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\Microsof
 C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Administrator\source\repos\BethanyShop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\AddUser.cshtml.g.cs
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\EditUser.cshtml.g.cs
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
 C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\UserManagement.cshtml.g.cs
+C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\source\repos\BethanyShop\obj\Debug\netcoreapp3.1\BethanyShop.csprojAssemblyReference.cache
