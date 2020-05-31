@@ -17,5 +17,8 @@ namespace BethanyShop.ViewModels
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
+        public DateTime Birthdate { get; set; }
+        public string City { get; set; }
+        public string Country { get; set; }
     }
 }

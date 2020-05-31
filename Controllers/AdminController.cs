@@ -44,7 +44,11 @@ namespace BethanyShop.Controllers
             var user = new ApplicationUser()
             {
                 UserName = addUserViewModel.UserName,
-                Email = addUserViewModel.Email
+                Email = addUserViewModel.Email,
+                Birthdate=addUserViewModel.Birthdate,
+                City=addUserViewModel.City,
+                Country=addUserViewModel.Country
+                
             };
             IdentityResult result = await _userManager.CreateAsync(user, addUserViewModel.Password);
             if (result.Succeeded)
@@ -75,13 +79,17 @@ namespace BethanyShop.Controllers
 
         }
         [HttpPost]
-        public async Task<IActionResult> EditUser(string id, string username , string email)
+        public async Task<IActionResult> EditUser(string id, string username , string email,
+            DateTime birthdate,string city, string country)
         {
             var user = await _userManager.FindByIdAsync(id);
             if (user != null)
             {
                 user.Email = email;
                 user.UserName = username;
+                user.Birthdate = birthdate;
+                user.City =city;
+                user.Country = country;
                 var result = await _userManager.UpdateAsync(user);
                 if (result.Succeeded)
                 {
