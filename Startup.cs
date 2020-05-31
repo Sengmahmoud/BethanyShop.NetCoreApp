@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using BethanyShop.Auth;
 
 namespace BethanyShop
 {
@@ -28,7 +29,7 @@ namespace BethanyShop
         {
             services.AddDbContext<AppDbContext>(options =>
                                         options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddIdentity<IdentityUser, IdentityRole>(
+            services.AddIdentity<ApplicationUser, IdentityRole>(
 
                options =>
                {
